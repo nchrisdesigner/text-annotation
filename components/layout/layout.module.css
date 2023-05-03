@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+    width: min(100%, 1200px);
+    margin-inline: auto;
+}
+
+.flagContainer{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.biglogo{
+    position: absolute;
+    top: 50%;
+    /* left: -10%; */
+    z-index: -1000;
+    opacity: 0.075;
+}
+
+.logo{ 
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
